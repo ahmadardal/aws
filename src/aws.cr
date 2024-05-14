@@ -1,5 +1,5 @@
 module AWS
-  VERSION = "0.1.0"
+  VERSION = "0.1.1"
 
   class_property access_key_id : String = ENV["AWS_ACCESS_KEY_ID"]? || ""
   class_property secret_access_key : String = ENV["AWS_SECRET_ACCESS_KEY"]? || ""
